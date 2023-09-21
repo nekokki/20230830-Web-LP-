@@ -1,0 +1,12 @@
+.l-inner {
+    margin: 0 auto;
+    padding: 0 133px 0 120px;
+
+    @include mq('sp') {
+      padding: 0 20px;
+    }
+
+    @include mq('tab') {
+      padding: 0 40px;
+    }
+}
